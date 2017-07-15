@@ -1,0 +1,9 @@
+'.source.js':
+
+  'Ember.Controller':
+    'prefix': 'controller'
+    'body': 'import Controller from "@ember/controller";'
+
+  'Ember.inject.controller':
+    'prefix': 'injectController'
+    'body': 'import { inject } from "@ember/controller";'

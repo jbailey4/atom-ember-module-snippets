@@ -1,0 +1,33 @@
+'.source.js':
+
+  'Ember.compare':
+    'prefix': 'compare'
+    'body': 'import { compare } from "@ember/utils";'
+
+  'Ember.isBlank':
+    'prefix': 'isBlank'
+    'body': 'import { isBlank } from "@ember/utils";'
+
+  'Ember.isEmpty':
+    'prefix': 'isEmpty'
+    'body': 'import { isEmpty } from "@ember/utils";'
+
+  'Ember.isEqual':
+    'prefix': 'isEqual'
+    'body': 'import { isEqual } from "@ember/utils";'
+
+  'Ember.isNone':
+    'prefix': 'isNone'
+    'body': 'import { isNone } from "@ember/utils";'
+
+  'Ember.isPresent':
+    'prefix': 'isPresent'
+    'body': 'import { isPresent } from "@ember/utils";'
+
+  'Ember.tryInvoke':
+    'prefix': 'tryInvoke'
+    'body': 'import { tryInvoke } from "@ember/utils";'
+
+  'Ember.typeOf':
+    'prefix': 'typeOf'
+    'body': 'import { typeOf } from "@ember/utils";'

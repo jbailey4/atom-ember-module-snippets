@@ -1,0 +1,39 @@
+'.source.js':
+
+  'Ember.assert':
+    'prefix': 'assert'
+    'body': 'import { assert } from "@ember/debug";'
+
+  'Ember.debug':
+    'prefix': 'debug'
+    'body': 'import { debug } from "@ember/debug";'
+
+  'Ember.inspect':
+    'prefix': 'inspect'
+    'body': 'import { inspect } from "@ember/debug";'
+
+  'Ember.Debug.registerDeprecationHandler':
+    'prefix': 'registerDeprecationHandler'
+    'body': 'import { registerDeprecationHandler } from "@ember/debug";'
+
+  'Ember.Debug.registerWarnHandler':
+    'prefix': 'registerWarnHandler'
+    'body': 'import { registerWarnHandler } from "@ember/debug";'
+
+  'Ember.runInDebug':
+    'prefix': 'runInDebug'
+    'body': 'import { runInDebug } from "@ember/debug";'
+
+  'Ember.warn':
+    'prefix': 'warn'
+    'body': 'import { warn } from "@ember/debug";'
+
+  'Ember.ContainerDebugAdapter':
+    'prefix': 'containerDebugAdapter'
+    'body': """
+      import ContainerDebugAdapter from "@ember/debug/container-debug-adapter";
+    """
+
+  'Ember.DataAdapter':
+    'prefix': 'debugDataAdapter'
+    'body': 'import DataAdapter from "@ember/debug/data-adapter";'

@@ -1,0 +1,13 @@
+'.source.js':
+
+  'Ember.Engine':
+    'prefix': 'engine'
+    'body': 'import Engine from "@ember/engine";'
+
+  'Ember.EngineInstance':
+    'prefix': 'engineInst'
+    'body': 'import EngineInstance from "@ember/engine/instance";'
+
+  'Ember.getEngineParent':
+    'prefix': 'getEngineParent'
+    'body': 'import { getEngineParent } from "@ember/engine";'

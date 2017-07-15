@@ -1,0 +1,45 @@
+'.source.js':
+
+  'Ember.String.camelize':
+    'prefix': 'camelize'
+    'body': 'import { camelize } from "@ember/string";'
+
+  'Ember.String.capitalize':
+    'prefix': 'capitalize'
+    'body': 'import { capitalize } from "@ember/string";'
+
+  'Ember.String.classify':
+    'prefix': 'classify'
+    'body': 'import { classify } from "@ember/string";'
+
+  'Ember.String.dasherize':
+    'prefix': 'dasherize'
+    'body': 'import { dasherize } from "@ember/string";'
+
+  'Ember.String.decamelize':
+    'prefix': 'decamelize'
+    'body': 'import { decamelize } from "@ember/string";'
+
+  'Ember.String.fmt':
+    'prefix': 'fmt'
+    'body': 'import { fmt } from "@ember/string";'
+
+  'Ember.String.htmlSafe':
+    'prefix': 'htmlSafe'
+    'body': 'import { htmlSafe } from "@ember/string";'
+
+  'Ember.String.isHtmlSafe':
+    'prefix': 'isHtmlSafe'
+    'body': 'import { isHtmlSafe } from "@ember/string";'
+
+  'Ember.String.loc':
+    'prefix': 'loc'
+    'body': 'import { loc } from "@ember/string";'
+
+  'Ember.String.underscore':
+    'prefix': 'underscore'
+    'body': 'import { underscore } from "@ember/string";'
+
+  'Ember.String.w':
+    'prefix': 'w'
+    'body': 'import { w } from "@ember/string";'

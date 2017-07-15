@@ -1,0 +1,25 @@
+'.source.js':
+
+  'Ember.Test.Adapter':
+    'prefix': 'testAdapter'
+    'body': 'import Test.Adapter from "@ember/test/adapter";'
+
+  'Ember.Test.registerAsyncHelper':
+    'prefix': 'registerAsyncHelper'
+    'body': 'import { registerAsyncHelper } from "@ember/test";'
+
+  'Ember.Test.registerHelper':
+    'prefix': 'registerHelper'
+    'body': 'import { registerHelper } from "@ember/test";'
+
+  'Ember.Test.registerWaiter':
+    'prefix': 'registerWaiter'
+    'body': 'import { registerWaiter } from "@ember/test";'
+
+  'Ember.Test.unregisterHelper':
+    'prefix': 'unregisterHelper'
+    'body': 'import { unregisterHelper } from "@ember/test";'
+
+  'Ember.Test.unregisterWaiter':
+    'prefix': 'unregisterWaiter'
+    'body': 'import { unregisterWaiter } from "@ember/test";'

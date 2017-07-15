@@ -1,0 +1,53 @@
+'.source.js':
+
+  'Ember.run':
+    'prefix': 'run'
+    'body': 'import { run } from "@ember/runloop";'
+
+  'Ember.run.begin':
+    'prefix': 'begin'
+    'body': 'import { begin } from "@ember/runloop";'
+
+  'Ember.run.bind':
+    'prefix': 'bind'
+    'body': 'import { bind } from "@ember/runloop";'
+
+  'Ember.run.cancel':
+    'prefix': 'cancel'
+    'body': 'import { cancel } from "@ember/runloop";'
+
+  'Ember.run.debounce':
+    'prefix': 'debounce'
+    'body': 'import { debounce } from "@ember/runloop";'
+
+  'Ember.run.end':
+    'prefix': 'end'
+    'body': 'import { end } from "@ember/runloop";'
+
+  'Ember.run.join':
+    'prefix': 'join'
+    'body': 'import { join } from "@ember/runloop";'
+
+  'Ember.run.later':
+    'prefix': 'later'
+    'body': 'import { later } from "@ember/runloop";'
+
+  'Ember.run.next':
+    'prefix': 'next'
+    'body': 'import { next } from "@ember/runloop";'
+
+  'Ember.run.once':
+    'prefix': 'once'
+    'body': 'import { once } from "@ember/runloop";'
+
+  'Ember.run.schedule':
+    'prefix': 'schedule'
+    'body': 'import { schedule } from "@ember/runloop";'
+
+  'Ember.run.scheduleOnce':
+    'prefix': 'scheduleOnce'
+    'body': 'import { scheduleOnce } from "@ember/runloop";'
+
+  'Ember.run.throttle':
+    'prefix': 'throttle'
+    'body': 'import { throttle } from "@ember/runloop";'

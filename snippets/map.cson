@@ -1,0 +1,9 @@
+'.source.js':
+
+  'Ember.Map':
+    'prefix': 'map'
+    'body': 'import EmberMap from "@ember/map";'
+
+  'Ember.MapWithDefault':
+    'prefix': 'mapWDefault'
+    'body': 'import MapWithDefault from "@ember/map/with-default";'

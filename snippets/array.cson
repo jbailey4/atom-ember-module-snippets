@@ -1,0 +1,25 @@
+'.source.js':
+
+  'Ember.Array':
+    'prefix': 'array'
+    'body': 'import EmberArray from "@ember/array";'
+
+  'Ember.Array':
+    'prefix': 'emberArray'
+    'body': 'import { A } from "@ember/array";'
+
+  'Ember.isArray':
+    'prefix': 'isArray'
+    'body': 'import { isArray } from "@ember/array";'
+
+  'Ember.makeArray':
+    'prefix': 'makeArray'
+    'body': 'import { makeArray } from "@ember/array";'
+
+  'Ember.MutableArray':
+    'prefix': 'mutArray'
+    'body': 'import MutableArray from "@ember/array/mutable";'
+
+  'Ember.ArrayProxy':
+    'prefix': 'arrayProxy'
+    'body': 'import ArrayProxy from "@ember/array/proxy";'

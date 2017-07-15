@@ -1,0 +1,29 @@
+'.source.js':
+
+  'Ember.$':
+    'prefix': '$'
+    'body': 'import $ from "jquery";'
+
+  'Ember.Enumerable':
+    'prefix': 'enum'
+    'body': 'import Enumerable from "@ember/enumerable";'
+
+  'Ember.Error':
+    'prefix': 'err'
+    'body': 'import EmberError from "@ember/error";'
+
+  'Ember.instrument':
+    'prefix': 'instrument'
+    'body': 'import { instrument } from "@ember/instrumentation";'
+
+  'Ember.reset':
+    'prefix': 'reset'
+    'body': 'import { reset } from "@ember/instrumentation";'
+
+  'Ember.subscribe':
+    'prefix': 'subscribe'
+    'body': 'import { subscribe } from "@ember/instrumentation";'
+
+  'Ember.unsubscribe':
+    'prefix': 'unsubscribe'
+    'body': 'import { unsubscribe } from "@ember/instrumentation";'

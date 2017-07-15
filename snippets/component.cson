@@ -1,0 +1,25 @@
+'.source.js':
+
+  'Ember.Component':
+    'prefix': 'component'
+    'body': 'import Component from "@ember/component";'
+
+  'Ember.Checkbox':
+    'prefix': 'checkbox'
+    'body': 'import Checkbox from "@ember/component/checkbox";'
+
+  'Ember.Helper':
+    'prefix': 'helper'
+    'body': 'import Helper from "@ember/component/helper";'
+
+  'Ember.Helper.helper':
+    'prefix': 'helperHelper'
+    'body': 'import { helper } from "@ember/component/helper";'
+
+  'Ember.TextArea':
+    'prefix': 'textArea'
+    'body': 'import TextArea from "@ember/component/text-area";'
+
+  'Ember.TextField':
+    'prefix': 'textField'
+    'body': 'import TextField from "@ember/component/text-field";'

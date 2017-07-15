@@ -1,0 +1,21 @@
+'.source.js':
+
+  'Ember.assign':
+    'prefix': 'assign'
+    'body': 'import { assign } from "@ember/polyfills";'
+
+  'Ember.keys':
+    'prefix': 'keys'
+    'body': 'import { keys } from "@ember/polyfills";'
+
+  'Ember.merge':
+    'prefix': 'merge'
+    'body': 'import { merge } from "@ember/polyfills";'
+
+  'Ember.create':
+    'prefix': 'create'
+    'body': 'import { create } from "@ember/polyfills";'
+
+  'Ember.platform.hasPropertyAccessors':
+    'prefix': 'hasPropertyAccessors'
+    'body': 'import { hasPropertyAccessors } from "@ember/polyfills";'

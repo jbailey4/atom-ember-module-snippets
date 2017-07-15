@@ -1,0 +1,9 @@
+'.source.js':
+
+  'Ember.Service':
+    'prefix': 'service'
+    'body': 'import Service from "@ember/service";'
+
+  'Ember.inject.service':
+    'prefix': 'injectService'
+    'body': 'import { inject } from "@ember/service";'

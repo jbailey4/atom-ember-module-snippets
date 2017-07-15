@@ -1,0 +1,23 @@
+{
+  "name": "ember-module-snippets",
+  "version": "0.0.0",
+  "description": "Ember ES6 module snippets for Atom",
+  "keywords": [
+    "atom",
+    "ember",
+    "javascript modules",
+    "snippets"
+  ],
+  "repository": "https://github.com/jbailey4/atom-ember-module-snippets",
+  "bugs": {
+    "url": "https://github.com/jbailey4/atom-ember-module-snippets/issues"
+  },
+  "homepage": "https://github.com/jbailey4/atom-ember-module-snippets",
+  "author": {
+    "name": "Josh Bailey"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

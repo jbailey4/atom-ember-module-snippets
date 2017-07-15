@@ -1,0 +1,61 @@
+'.source.js':
+
+  'Ember.RSVP':
+    'prefix': 'rsvp'
+    'body': 'import RSVP from "rsvp";'
+
+  'Ember.RSVP.Promise':
+    'prefix': 'promise'
+    'body': 'import { Promise } from "rsvp";'
+
+  'Ember.RSVP.all':
+    'prefix': 'rsvpAll'
+    'body': 'import { all } from "rsvp";'
+
+  'Ember.RSVP.allSettled':
+    'prefix': 'rsvpAllSettled'
+    'body': 'import { allSettled } from "rsvp";'
+
+  'Ember.RSVP.defer':
+    'prefix': 'rsvpDefer'
+    'body': 'import { defer } from "rsvp";'
+
+  'Ember.RSVP.denodeify':
+    'prefix': 'rsvpDenodeify'
+    'body': 'import { denodeify } from "rsvp";'
+
+  'Ember.RSVP.filter':
+    'prefix': 'rsvpFilter'
+    'body': 'import { filter } from "rsvp";'
+
+  'Ember.RSVP.hash':
+    'prefix': 'rsvpHash'
+    'body': 'import { hash } from "rsvp";'
+
+  'Ember.RSVP.hashSettled':
+    'prefix': 'rsvpHashSettled'
+    'body': 'import { hashSettled } from "rsvp";'
+
+  'Ember.RSVP.map':
+    'prefix': 'rsvpMap'
+    'body': 'import { map } from "rsvp";'
+
+  'Ember.RSVP.off':
+    'prefix': 'rsvpOff'
+    'body': 'import { off } from "rsvp";'
+
+  'Ember.RSVP.on':
+    'prefix': 'rsvpOn'
+    'body': 'import { on } from "rsvp";'
+
+  'Ember.RSVP.race':
+    'prefix': 'rsvpRace'
+    'body': 'import { race } from "rsvp";'
+
+  'Ember.RSVP.reject':
+    'prefix': 'rsvpReject'
+    'body': 'import { reject } from "rsvp";'
+
+  'Ember.RSVP.resolve':
+    'prefix': 'rsvpResolve'
+    'body': 'import { resolve } from "rsvp";'

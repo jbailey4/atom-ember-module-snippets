@@ -37,8 +37,8 @@ For a complete mapping of shortcut keys to the Ember module import, see the belo
 
 #### Thanks,
 
-to the project, [ember-rfc176-data](https://github.com/ember-cli/ember-rfc176-data), for a full list of each Ember module and the corresponding import, without that this project would not have been possible.
+to the project, [ember-rfc176-data](https://github.com/ember-cli/ember-rfc176-data), for a full list of each Ember module and the corresponding import, without that this package would not have been possible.
 
 ### Issues
 
-If you notice a module is missing or a something is incorrect, please submit an issue or PR.
+If you notice a module is missing or something is incorrect, please submit an issue or PR.

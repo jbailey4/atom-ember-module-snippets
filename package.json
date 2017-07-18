@@ -1,6 +1,6 @@
 {
   "name": "ember-module-snippets",
-  "version": "0.2.2",
+  "version": "1.0.0",
   "description": "Ember ES6 module snippets for Atom",
   "keywords": [
     "atom",

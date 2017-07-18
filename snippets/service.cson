@@ -1,9 +1,11 @@
 '.source.js':
 
   'Ember.Service':
-    'prefix': 'service'
+    'prefix': 'imservice'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import Service from "@ember/service";'
 
   'Ember.inject.service':
-    'prefix': 'injectService'
+    'prefix': 'iminjectService'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { inject } from "@ember/service";'

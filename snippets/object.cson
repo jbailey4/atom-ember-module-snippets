@@ -1,249 +1,311 @@
 '.source.js':
 
   'Ember.Object':
-    'prefix': 'object'
+    'prefix': 'imobject'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import EmberObject from "@ember/object";'
 
   'Ember.ObjectProxy':
-    'prefix': 'objectProxy'
+    'prefix': 'imobjectProxy'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import ObjectProxy from "@ember/object/proxy";'
 
   'Ember.Observable':
-    'prefix': 'observable'
+    'prefix': 'imobservable'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import Observable from "@ember/object/observable";'
 
   'Ember.addListener':
-    'prefix': 'addListener'
+    'prefix': 'imaddListener'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { addListener } from "@ember/object/events";'
 
   'Ember.addObserver':
-    'prefix': 'addObserver'
+    'prefix': 'imaddObserver'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { addObserver } from "@ember/object/observers";'
 
   'Ember.aliasMethod':
-    'prefix': 'aliasMethod'
+    'prefix': 'imaliasMethod'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { aliasMethod } from "@ember/object";'
 
   'Ember.computed':
-    'prefix': 'computed'
+    'prefix': 'imcomputed'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { computed } from "@ember/object";'
 
   'Ember.computed.alias':
-    'prefix': 'alias'
+    'prefix': 'imalias'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { alias } from "@ember/object/computed";'
 
   'Ember.computed.and':
-    'prefix': 'and'
+    'prefix': 'imand'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { and } from "@ember/object/computed";'
 
   'Ember.computed.bool':
-    'prefix': 'bool'
+    'prefix': 'imbool'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { bool } from "@ember/object/computed";'
 
   'Ember.computed.collect':
-    'prefix': 'collect'
+    'prefix': 'imcollect'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { collect } from "@ember/object/computed";'
 
   'Ember.computed.deprecatingAlias':
-    'prefix': 'deprecatingAlias'
+    'prefix': 'imdeprecatingAlias'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { deprecatingAlias } from "@ember/object/computed";'
 
   'Ember.computed.empty':
-    'prefix': 'empty'
+    'prefix': 'imempty'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { empty } from "@ember/object/computed";'
 
   'Ember.computed.equal':
-    'prefix': 'equal'
+    'prefix': 'imequal'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { equal } from "@ember/object/computed";'
 
   'Ember.computed.filter':
-    'prefix': 'filter'
+    'prefix': 'imfilter'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { filter } from "@ember/object/computed";'
 
   'Ember.computed.filterBy':
-    'prefix': 'filterBy'
+    'prefix': 'imfilterBy'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { filterBy } from "@ember/object/computed";'
 
   'Ember.computed.filterProperty':
-    'prefix': 'filterProperty'
+    'prefix': 'imfilterProperty'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { filterProperty } from "@ember/object/computed";'
 
   'Ember.computed.gt':
-    'prefix': 'gt'
+    'prefix': 'imgt'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { gt } from "@ember/object/computed";'
 
   'Ember.computed.gte':
-    'prefix': 'gte'
+    'prefix': 'imgte'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { gte } from "@ember/object/computed";'
 
   'Ember.computed.intersect':
-    'prefix': 'intersect'
+    'prefix': 'imintersect'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { intersect } from "@ember/object/computed";'
 
   'Ember.computed.lt':
-    'prefix': 'lt'
+    'prefix': 'imlt'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { lt } from "@ember/object/computed";'
 
   'Ember.computed.lte':
-    'prefix': 'lte'
+    'prefix': 'imlte'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { lte } from "@ember/object/computed";'
 
   'Ember.computed.map':
-    'prefix': 'map'
+    'prefix': 'immap'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { map } from "@ember/object/computed";'
 
   'Ember.computed.mapBy':
-    'prefix': 'mapBy'
+    'prefix': 'immapBy'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { mapBy } from "@ember/object/computed";'
 
   'Ember.computed.mapProperty':
-    'prefix': 'mapProperty'
+    'prefix': 'immapProperty'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { mapProperty } from "@ember/object/computed";'
 
   'Ember.computed.match':
-    'prefix': 'match'
+    'prefix': 'immatch'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { match } from "@ember/object/computed";'
 
   'Ember.computed.max':
-    'prefix': 'max'
+    'prefix': 'immax'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { max } from "@ember/object/computed";'
 
   'Ember.computed.min':
-    'prefix': 'min'
+    'prefix': 'immin'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { min } from "@ember/object/computed";'
 
   'Ember.computed.none':
-    'prefix': 'none'
+    'prefix': 'imnone'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { none } from "@ember/object/computed";'
 
   'Ember.computed.not':
-    'prefix': 'not'
+    'prefix': 'imnot'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { not } from "@ember/object/computed";'
 
   'Ember.computed.notEmpty':
-    'prefix': 'notEmpty'
+    'prefix': 'imnotEmpty'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { notEmpty } from "@ember/object/computed";'
 
   'Ember.computed.oneWay':
-    'prefix': 'oneWay'
+    'prefix': 'imoneWay'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { oneWay } from "@ember/object/computed";'
 
   'Ember.computed.or':
-    'prefix': 'or'
+    'prefix': 'imor'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { or } from "@ember/object/computed";'
 
   'Ember.computed.readOnly':
-    'prefix': 'readOnly'
+    'prefix': 'imreadOnly'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { readOnly } from "@ember/object/computed";'
 
   'Ember.computed.reads':
-    'prefix': 'reads'
+    'prefix': 'imreads'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { reads } from "@ember/object/computed";'
 
   'Ember.computed.setDiff':
-    'prefix': 'setDiff'
+    'prefix': 'imsetDiff'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { setDiff } from "@ember/object/computed";'
 
   'Ember.computed.sort':
-    'prefix': 'sort'
+    'prefix': 'imsort'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { sort } from "@ember/object/computed";'
 
   'Ember.computed.sum':
-    'prefix': 'sum'
+    'prefix': 'imsum'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { sum } from "@ember/object/computed";'
 
   'Ember.computed.union':
-    'prefix': 'union'
+    'prefix': 'imunion'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { union } from "@ember/object/computed";'
 
   'Ember.computed.uniq':
-    'prefix': 'uniq'
+    'prefix': 'imuniq'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { uniq } from "@ember/object/computed";'
 
   'Ember.computed.uniqBy':
-    'prefix': 'uniqBy'
+    'prefix': 'imuniqBy'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { uniqBy } from "@ember/object/computed";'
 
   'Ember.copy':
-    'prefix': 'copy'
+    'prefix': 'imcopy'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { copy } from "@ember/object/internals";'
 
   'Ember.create':
-    'prefix': 'polyfillCreate'
+    'prefix': 'impolyfillCreate'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { create } from "@ember/polyfills";'
 
   'Ember.defineProperty':
-    'prefix': 'objecDefineProperty'
+    'prefix': 'imobjecDefineProperty'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { defineProperty } from "@ember/object";'
 
   'Ember.get':
-    'prefix': 'getter'
+    'prefix': 'imget'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { get } from "@ember/object";'
 
   'Ember.getProperties':
-    'prefix': 'getProperties'
+    'prefix': 'imgetProperties'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { getProperties } from "@ember/object";'
 
   'Ember.getWithDefault':
-    'prefix': 'getWithDefault'
+    'prefix': 'imgetWithDefault'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { getWithDefault } from "@ember/object";'
 
   'Ember.guidFor':
-    'prefix': 'guidFor'
+    'prefix': 'imguidFor'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { guidFor } from "@ember/object/internals";'
 
   'Ember.observer':
-    'prefix': 'observer'
+    'prefix': 'imobserver'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { observer } from "@ember/object";'
 
   'Ember.on':
-    'prefix': 'on'
+    'prefix': 'imon'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { on } from "@ember/object/evented";'
 
   'Ember.removeListener':
-    'prefix': 'removeListener'
+    'prefix': 'imremoveListener'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { removeListener } from "@ember/object/events";'
 
   'Ember.removeObserver':
-    'prefix': 'removeObserver'
+    'prefix': 'imremoveObserver'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { removeObserver } from "@ember/object/observers";'
 
   'Ember.sendEvent':
-    'prefix': 'sendEvent'
+    'prefix': 'imsendEvent'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { sendEvent } from "@ember/object/events";'
 
   'Ember.set':
-    'prefix': 'setter'
+    'prefix': 'imset'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { set } from "@ember/object";'
 
   'Ember.setProperties':
-    'prefix': 'setProperties'
+    'prefix': 'imsetProperties'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { setProperties } from "@ember/object";'
 
   'Ember.trySet':
-    'prefix': 'trySet'
+    'prefix': 'imtrySet'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { trySet } from "@ember/object";'
 
   'Ember.ComputedProperty':
-    'prefix': 'computedProperty'
+    'prefix': 'imcomputedProperty'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import ComputedProperty from "@ember/object/computed";'
 
   'Ember.CoreObject':
-    'prefix': 'coreObject'
+    'prefix': 'imcoreObject'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import CoreObject from "@ember/object/core";'
 
   'Ember.Evented':
-    'prefix': 'evented'
+    'prefix': 'imevented'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import Evented from "@ember/object/evented";'
 
   'Ember.Mixin':
-    'prefix': 'mixin'
+    'prefix': 'immixin'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import Mixin from "@ember/object/mixin";'
 
   'Ember.PromiseProxyMixin':
-    'prefix': 'promiseProxyMixin'
+    'prefix': 'impromiseProxyMixin'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import PromiseProxyMixin from "@ember/object/promise-proxy-mixin";'
 
   'Ember.cacheFor':
-    'prefix': 'cacheFor'
+    'prefix': 'imcacheFor'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { cacheFor } from "@ember/object/internals";'

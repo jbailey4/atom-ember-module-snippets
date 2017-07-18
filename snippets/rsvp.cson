@@ -1,61 +1,76 @@
 '.source.js':
 
   'Ember.RSVP':
-    'prefix': 'rsvp'
+    'prefix': 'imrsvp'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import RSVP from "rsvp";'
 
   'Ember.RSVP.Promise':
-    'prefix': 'promise'
+    'prefix': 'impromise'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { Promise } from "rsvp";'
 
   'Ember.RSVP.all':
-    'prefix': 'rsvpAll'
+    'prefix': 'imrsvpAll'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { all } from "rsvp";'
 
   'Ember.RSVP.allSettled':
-    'prefix': 'rsvpAllSettled'
+    'prefix': 'imrsvpAllSettled'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { allSettled } from "rsvp";'
 
   'Ember.RSVP.defer':
-    'prefix': 'rsvpDefer'
+    'prefix': 'imrsvpDefer'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { defer } from "rsvp";'
 
   'Ember.RSVP.denodeify':
-    'prefix': 'rsvpDenodeify'
+    'prefix': 'imrsvpDenodeify'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { denodeify } from "rsvp";'
 
   'Ember.RSVP.filter':
-    'prefix': 'rsvpFilter'
+    'prefix': 'imrsvpFilter'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { filter } from "rsvp";'
 
   'Ember.RSVP.hash':
-    'prefix': 'rsvpHash'
+    'prefix': 'imrsvpHash'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { hash } from "rsvp";'
 
   'Ember.RSVP.hashSettled':
-    'prefix': 'rsvpHashSettled'
+    'prefix': 'imrsvpHashSettled'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { hashSettled } from "rsvp";'
 
   'Ember.RSVP.map':
-    'prefix': 'rsvpMap'
+    'prefix': 'imrsvpMap'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { map } from "rsvp";'
 
   'Ember.RSVP.off':
-    'prefix': 'rsvpOff'
+    'prefix': 'imrsvpOff'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { off } from "rsvp";'
 
   'Ember.RSVP.on':
-    'prefix': 'rsvpOn'
+    'prefix': 'imrsvpOn'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { on } from "rsvp";'
 
   'Ember.RSVP.race':
-    'prefix': 'rsvpRace'
+    'prefix': 'imrsvpRace'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { race } from "rsvp";'
 
   'Ember.RSVP.reject':
-    'prefix': 'rsvpReject'
+    'prefix': 'imrsvpReject'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { reject } from "rsvp";'
 
   'Ember.RSVP.resolve':
-    'prefix': 'rsvpResolve'
+    'prefix': 'imrsvpResolve'
+    'leftLabelHTML': '<span style="color:#E46651">Ember module</span>'
     'body': 'import { resolve } from "rsvp";'

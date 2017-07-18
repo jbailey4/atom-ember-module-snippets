@@ -10,7 +10,7 @@ A collection of snippets for importing Ember javascript modules.
 
 Begin typing an Ember module you need, such as `component`, press `Tab`, and the corresponding import statement will be printed for you.
 
-![ ](http://res.cloudinary.com/dvc1fhbvs/image/upload/v1500129998/ember-module-snippets-demo-2_w7cq7q.gif "Atom ember module snippet demo")
+![ ](https://res.cloudinary.com/dvc1fhbvs/image/upload/v1500348295/ember-module-snippets-demo-3_bcmqme.gif "Atom ember module snippet demo")
 
 ### Docs
 

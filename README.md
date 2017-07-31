@@ -1,3 +1,6 @@
+**WARNING: This project has been merged with the offical [ember-snippets](https://github.com/mattmcmanus/atom-ember-snippets) atom package. Atom-ember-module-snippets will no longer be updated, and should be considered deprecated. Please use `ember-snippets >=v2.1.0` to get the module import snippets found here, plus a load of other useful ember snippets.**
+
+
 # Atom Ember Module Snippets
 
 A collection of snippets for importing Ember javascript modules.
